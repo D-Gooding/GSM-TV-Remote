@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="5"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/channel"
+        android:inputType="textPersonName" />
+
+    <GridLayout
+        android:layout_width="273dp"
+        android:layout_height="438dp"
+        android:layout_below="@id/editTextMessage"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="11dp"
+        android:columnCount="3"
+        android:hapticFeedbackEnabled="true"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/n1"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/n2"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/n3"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/n4"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/n5"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/n6"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/n7"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/n8"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/n9"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/volPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/VolumePlus"
+            android:textColor="#000000"
+            tools:text="@string/VolumePlus" />
+
+        <Button
+            android:id="@+id/n0"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/_0" />
+
+        <ImageButton
+            android:id="@+id/BBCButton"
+            android:layout_width="86dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/bbc_1_button"
+            android:cropToPadding="true"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <Button
+            android:id="@+id/volNeg"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/S"
+            tools:text="@string/S" />
+
+        <ImageButton
+            android:id="@+id/OnButton"
+            android:layout_width="87dp"
+            android:layout_height="79dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/on_button"
+            app:srcCompat="@mipmap/onbutton_foreground" />
+
+        <ImageButton
+            android:id="@+id/itv3Button"
+            android:layout_width="89dp"
+            android:layout_height="74dp"
+            android:contentDescription="@string/itv3_button"
+            app:srcCompat="@mipmap/itv3_button_foreground" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/CheckOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:text="@string/online"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_height="70dp"
+            android:height="70dp"
+            android:onClick="sendSMS"
+            android:text="@string/send" />
+
+
+    </GridLayout>
+
+
+</RelativeLayout>

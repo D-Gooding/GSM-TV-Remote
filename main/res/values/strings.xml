@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GSM TV Remote</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="type_the_number">Type the number</string>
+    <string name="your_message">Your message</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="TypeMessage">TypeMessage</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="clear">clear</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="type_the_message">Type Number</string>
+    <string name="send">Send</string>
+    <string name="itv3_button">itv3 button</string>
+    <string name="bbc_1_button">BBC 1 button</string>
+    <string name="channel">Channel</string>
+    <string name="on_button">On Button</string>
+    <string name="vol" />
+    <string name="vol_plus" />
+    <string name="volUp" />
+    <string name="S">-VOL</string>
+    <string name="VolumePlus">+VOL</string>
+    <string name="online">Online?</string>
+</resources>
