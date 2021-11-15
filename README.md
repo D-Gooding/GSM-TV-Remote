@@ -7,4 +7,4 @@ Since my nan does not have internet at her flat the best/cheapest comunication m
 I bought a GSM hat for the arduino 
 https://www.banggood.com/SIM900-Quad-Band-GSM-GPRS-Shield-Development-Board-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-964229.html?ab_toppage_rr=1&akmClientCountry=GB&p=VP240122576862201806&custlixnkid=475709&cur_warehouse=CN
 
-and addeded a Vodafone sim (one of the last 2G carriers in the UK). There was a lot of online examples and documentaion which made it super easy to find the right power supply and debug some of the problems I faced.
+and added a Vodafone sim (one of the last 2G carriers in the UK). There was a lot of online examples and documentaion which made it super easy to find the right power supply and debug some of the problems I faced.
